@@ -1,7 +1,7 @@
-count = 1
-while count <= 10:
-    count += 1
-    print(f"死循环{count}次")
+# count = 1
+# while count <= 10:
+#     count += 1
+#     print(f"死循环{count}次")
 
 #死循环。。。
 # count = 1
