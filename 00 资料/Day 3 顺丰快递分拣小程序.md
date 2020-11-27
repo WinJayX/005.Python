@@ -16,9 +16,7 @@ s = "Hello, my name is Alex,golden king."
 
 1. 按照从左到右的顺序定义字符集合，下标从0开始顺序访问，有序
 
-   
-
-2. ![img](Day 3 顺丰快递分拣小程序.assets/str-20200513155543044.png)
+2. ![image-20201119120744362](/Users/WinJay/Library/Application Support/typora-user-images/image-20201119120744362.png)
 
 3. 可进行切片操作
 
@@ -34,18 +32,16 @@ s = "Hello, my name is Alex,golden king."
       >>> 
       >>> s[3:10]
       'lo, my '
-      >>> 
+      >>> 4.不可变，字符串是不可变的，不能像列表一样修改其中某个元素，所有对字符串的修改操作其实都是相当于生成了一份新数据。
       ```
-
-4. 不可变，字符串是不可变的，不能像列表一样修改其中某个元素，所有对字符串的修改操作其实都是相当于生成了一份新数据。
 
 ### 1.2 字符串常用操作
 
 下图标红框的为重点必须掌握的用法
 
-![image-20200513163835297](Day 3 顺丰快递分拣小程序.assets/image-20200513163835297.png)
 
 
+![image-20201119113838439](/Users/WinJay/Library/Application Support/typora-user-images/image-20201119113838439.png)![image-20201119113919065](/Users/WinJay/Library/Application Support/typora-user-images/image-20201119113919065.png)
 
 # 二、数据类型-又见list
 
@@ -323,9 +319,6 @@ names[start:end:step] #step 默认是1
 狗蛋
 rain
 eva
-@
-4
-#
 ```
 
 #### 打印索引
