@@ -140,4 +140,5 @@ dmypy.json
 cython_debug/
 
 .gitignore
-00 资料/2020 路飞Python全栈开发学习路线图-v6(1).pdf
+.pdf
+.idea/
