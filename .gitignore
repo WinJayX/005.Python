@@ -11,6 +11,6 @@
 # 但 lib.exe 除外
 !lib.exe
 
-# 忽略 build/ 目录下的所有文件
+# 忽略所有层级下的venv与.idea目录及目录下的所有文件
 venv/
 .idea/
