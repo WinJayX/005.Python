@@ -8,6 +8,3 @@ for floor in range(1, 7):
             # break       # 结束整个循环（仅限当前的循环）
             exit()    # 退出程序，结束所有循环。
         print(f'当前是在{floor}0{room}室内')
-
-
-        
