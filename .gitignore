@@ -12,5 +12,6 @@
 !lib.exe
 
 # 忽略所有层级下的venv与.idea目录及目录下的所有文件
+.DS_Store
 venv/
 .idea/
