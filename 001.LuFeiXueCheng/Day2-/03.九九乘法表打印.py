@@ -16,3 +16,4 @@ for i in range(1, 10):      # 楼层记录，共有9层。
         print(f'{i}x{n}={i * n}', end=' ')
 
     print()
+
