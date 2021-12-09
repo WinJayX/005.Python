@@ -24,17 +24,15 @@
 # 求一个列表是不是另一个列表的子列表
 
 list2 = [2, 3, 4, 5, 6, 7, 8, 9, 23, 24, 35, 45, 52, 54, 56, 57, 67, 74, 89, 324, 568, 868]
-list3 = [4,6,7,8,89,9,67,5,3,3,2]
+list3 = [4, 6, 7, 8, 89, 9, 67, 5, 3, 3, 2]
 
 print('begin')
 
+is_sub_list = True
 for i in list3:
-    print('Test')
     if i not in list2:
-        print('Test1111111')
-        print('------------3不是2的子列表')
+        print('List3 不是list2的子列表')
+        is_sub_list = False
+        exit()  # 检测到不是，退出即可。不再做比较
 
-        print('??')
-
-
-
+if is_sub_list:print('是list2的子列表')
