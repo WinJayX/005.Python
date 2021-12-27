@@ -7,6 +7,7 @@ dic = {
 
 for i in arr:
     to_key = list(i) # 变成列表
+    print(to_key)
     to_key.sort()
     to_key = tuple(to_key) # 变成一个元组，这样可当成key
     if to_key not in dic: # 之前没有，创建一个
