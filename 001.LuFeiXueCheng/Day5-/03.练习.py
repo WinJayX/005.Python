@@ -20,6 +20,9 @@ print(dist1)
 
 
 dist2 = {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10}
-for i in dist2.items():
-        print(type(i))
-        print(i)
+for k, v in dist2.items():
+    if v > 5:
+        print(k, end=',')
+
+
+
