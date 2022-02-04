@@ -1,12 +1,29 @@
-set1 = {1, 43, 343, 1, 5, 8, 3, 5, 6}
+b = [1, 43, 343, 1, 5, 8, 3, 5, 6]
 
-set(set1)
-print(set1)
+to_set = set(b)
+print(to_set)
+to_list = list(set(b))
 
-set1.add('WinJayX')
+print(to_list)
 
-print(set1)
-for i in set1:
+
+
+to_set.add('WinJayX')
+
+print(to_set)
+
+
+for i in to_set:
     print(i)
 
-set1.
+if 98 not in to_set:
+    print(98)
+
+print(to_set.remove(43))
+
+print(to_set)
+
+print(to_set.pop())
+print(to_set)
+print(to_set.discard(5))
+print(to_set)
