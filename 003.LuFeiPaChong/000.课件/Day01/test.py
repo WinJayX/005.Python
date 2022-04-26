@@ -10,3 +10,14 @@ res = outer() # outer() == inner, result == inner
 res()
 print('========')
 print(res())
+
+
+
+print(30 * '=')
+
+def func():
+    return 1, 'two', 3.3, [3,2,5]
+
+r1, r2, r3, r4 = func()
+
+print(r1,r2,r3,r4[1])
