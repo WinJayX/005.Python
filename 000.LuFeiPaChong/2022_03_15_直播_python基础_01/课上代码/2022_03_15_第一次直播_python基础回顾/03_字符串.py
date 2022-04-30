@@ -79,7 +79,3 @@
 # print(s)
 
 
-
-name = '张五丰'
-s = f'我喜欢的人是{name}'
-print(s)

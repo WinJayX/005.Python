@@ -3,9 +3,3 @@
 #     print("我爱你")
 #     print("哈哈")
 
-
-
-while 1:
-    print('I Love You')
-
-
