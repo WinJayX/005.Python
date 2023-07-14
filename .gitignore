@@ -1,17 +1,27 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Python template
-# Byte-compiled / optimized / DLL files
+################################################################################
+# 此 .gitignore 文件为所需忽略文件。
+################################################################################
 
-# 此为注释 – 将被 Git 忽略
+# Libraries
 
 
+# Shared objects (inc. Windows DLLs)
 
-# 忽略所有 .exe结尾的文件
-*.pdf
-# 但 lib.exe 除外
-!lib.exe
 
-# 忽略所有层级下的venv与.idea目录及目录下的所有文件
-.DS_Store
-venv/
-.idea/
+# Executables
+#*.exe
+
+# Metadata
+#-*.aliases
+#-*.lvlps
+#-*.tar.gz
+#-*.tar
+#-*.zip
+#-*.rar
+
+# 忽略的目录
+*.DS_Store
+*._*
+*.exe
+*.rpm
+.idea
